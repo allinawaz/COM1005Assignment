@@ -92,5 +92,8 @@ public class RamblersState extends SearchState {
 		}
 	}
 	
+	String ToString() {
+		return "Position: ( " +coordinates.getx()+ " , "+coordinates.gety()+ " ) ";
+	}
 
 }
