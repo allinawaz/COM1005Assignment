@@ -27,7 +27,7 @@ public class TestTerrainMap {
 
   public static void main(String[] arg) {
 
-    TerrainMap tm = new TerrainMap("tmc.pgm");
+    TerrainMap tm = new TerrainMap("search3/tmc.pgm");
 
     System.out.println(tm.getWidth());
     System.out.println(tm.getTmap()[7][2]);
